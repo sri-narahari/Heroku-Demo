@@ -9,6 +9,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import pickle
+import sklearn
 
 dataset=pd.read_csv('hiring.csv')
 dataset['experience'].fillna(0,inplace=True)
